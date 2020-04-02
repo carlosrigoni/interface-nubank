@@ -1,6 +1,8 @@
 import React from 'react';
 
-import {Container, Top, Logo, Title} from './styles';
+import {
+  Container, Top, Logo, Title,
+} from './styles';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -11,7 +13,7 @@ export default function Header() {
     <Container>
       <Top>
         <Logo source={logo} />
-        <Title>Carlos Daniel</Title>
+        <Title>Diego</Title>
       </Top>
       <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
     </Container>
